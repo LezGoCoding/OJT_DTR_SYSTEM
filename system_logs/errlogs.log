@@ -1,0 +1,123 @@
+[21-Feb-2025 14:58:46 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 14:58:46 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 14:58:46 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 14:58:49 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 14:58:49 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 14:58:49 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 14:59:26 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 14:59:26 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 14:59:26 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 15:01:11 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 15:01:11 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 15:01:11 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 15:02:04 Asia/Manila] Database query error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'crud.employeesd' doesn't exist
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "firstName" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 20
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "lastName" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 21
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "address" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 22
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "contactNumber" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 23
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "email" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 24
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "dateOfBirth" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 25
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "department" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 26
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "position" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 27
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 28
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 29
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\DTR_SYSTEM\module\employees\controller.php on line 30
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 16:00:25 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 16:01:27 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 16:01:27 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 16:01:27 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 16:05:14 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 16:05:14 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 16:05:14 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 16:05:18 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 16:05:18 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 16:05:18 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[21-Feb-2025 16:07:42 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[21-Feb-2025 16:07:42 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[21-Feb-2025 16:07:42 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[22-Feb-2025 19:09:32 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[22-Feb-2025 19:09:32 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[22-Feb-2025 19:09:32 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 18:23:42 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 18:23:42 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 18:23:42 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:15:02 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:15:02 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:15:02 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:15:11 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:15:11 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:15:11 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:15:20 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:15:20 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:15:20 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:17:26 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:17:26 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:17:26 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:17:30 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:17:30 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:17:30 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:26:57 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:26:57 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:26:57 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:27:01 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:27:01 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:27:01 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:40:53 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:40:53 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:40:53 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:40:56 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:40:56 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:40:56 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:41:19 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:41:19 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:41:19 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:41:23 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:41:23 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:41:23 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:41:50 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:41:50 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:41:50 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 19:41:54 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 19:41:54 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 19:41:54 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 20:10:17 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 20:10:17 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 20:10:17 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 20:10:17 Asia/Manila] PHP Warning:  include(login_processing.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\DTR_SYSTEM\module\login.php on line 260
+[23-Feb-2025 20:10:17 Asia/Manila] PHP Warning:  include(): Failed opening 'login_processing.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DTR_SYSTEM\module\login.php on line 260
+[23-Feb-2025 20:13:37 Asia/Manila] PHP Warning:  include(login_processing.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\DTR_SYSTEM\module\login.php on line 296
+[23-Feb-2025 20:13:37 Asia/Manila] PHP Warning:  include(): Failed opening 'login_processing.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DTR_SYSTEM\module\login.php on line 296
+[23-Feb-2025 20:15:04 Asia/Manila] PHP Warning:  include(login_processing.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\DTR_SYSTEM\module\login.php on line 289
+[23-Feb-2025 20:15:04 Asia/Manila] PHP Warning:  include(): Failed opening 'login_processing.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\DTR_SYSTEM\module\login.php on line 289
+[23-Feb-2025 21:26:29 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:26:29 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:26:29 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:30:18 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:30:18 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:30:18 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:30:31 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:30:31 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:30:31 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:40:33 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:40:33 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:40:33 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:40:39 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:40:39 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:40:39 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:48:37 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:48:37 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:48:37 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:49:37 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:49:37 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:49:37 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 21:57:53 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 21:57:53 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 21:57:53 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[23-Feb-2025 22:00:20 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[23-Feb-2025 22:00:20 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[23-Feb-2025 22:00:20 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
+[24-Feb-2025 08:28:50 Asia/Manila] PHP Warning:  Undefined variable $AY in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 128
+[24-Feb-2025 08:28:50 Asia/Manila] PHP Warning:  Undefined variable $SEMESTER in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 129
+[24-Feb-2025 08:28:50 Asia/Manila] PHP Warning:  Undefined variable $ip in C:\xampp\htdocs\DTR_SYSTEM\include\functions.php on line 130
