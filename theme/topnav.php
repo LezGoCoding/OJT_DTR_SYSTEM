@@ -20,20 +20,24 @@
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
             <li class="dropdown-header">
               <h6><?php echo isset($_SESSION['ACCOUNT_NAME']) ? $_SESSION['ACCOUNT_NAME'] : 'Administrator' ?></h6>
-              <span>Administrator</span>
+              <span><?php echo (isset($_SESSION['ACCOUNT_USERNAME']) && $_SESSION['ACCOUNT_USERNAME'] === 'admin') ? 'Administrator': $_SESSION['ACCOUNT_USERNAME']; ?>
+              </span>
             </li>
+
             <li>
               <hr class="dropdown-divider">
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center"  href="<?php echo WEB_ROOT ?>admin">
+              <a class="dropdown-item d-flex align-items-center"  href="<?php echo WEB_ROOT ?>profile">
                 <i class="bi bi-person"></i>
                 <span>My Profile</span>
               </a>
             </li>
+            
             <li>
               <hr class="dropdown-divider">
             </li>

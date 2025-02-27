@@ -68,7 +68,7 @@ $appEnv = $_ENV['APP_ENV'] ?: 'development';
 if ($appEnv === 'production') {
     defined('LOG_FILE') ? null : define('LOG_FILE', '/home/ssc-smis.ph/asset.ssc-smis.ph/logs/errlogs.log');
 } else {
-    defined('LOG_FILE') ? null : define('LOG_FILE', 'C:/xampp/htdocs/DTR_SYSTEM/logs/errlogs.log');
+    defined('LOG_FILE') ? null : define('LOG_FILE', 'C:/xampp/htdocs/DTR_SYSTEM/system_logs/errlogs.log');
 }
 
 // Environment-specific configurations

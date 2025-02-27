@@ -51,6 +51,30 @@
 		    return $employee;
 		}
 
+		static function AuthenticateEmployee($username = "", $password = "") {
+			global $mydb;
+			$sql = "SELECT * FROM employees WHERE `username` = :username LIMIT 1";
+			$params = [
+				':username' => $username
+			];
+			$mydb->setQuery($sql, $params);
+			$row_count = $mydb->num_rows();
+
+			if ($row_count == 1) {
+				$found_user = $mydb->loadSingleResult();
+
+				if (password_verify($password, $found_user->password)) {
+					$_SESSION['ACCOUNT_ID'] 	 	= $found_user->emp_id;
+					$_SESSION['ACCOUNT_NAME'] 		= $found_user->last_name. ', ' . $found_user->first_name;
+					$_SESSION['ACCOUNT_USERNAME']	= $found_user->role;
+					$_SESSION['EMPID'] 				= $found_user->role;
+					return true;
+				}
+			}
+
+			return false;
+		} 
+
 
 	
 		/*---Instantiation of Object dynamically---*/

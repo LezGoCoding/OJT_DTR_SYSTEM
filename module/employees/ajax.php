@@ -56,7 +56,6 @@ function doList(){
         $data[] = $sub_array;
         $i++;
     }
-    
 
     $output = array(
         'data' => $data,
@@ -79,6 +78,7 @@ function getEmployeeAllAttendance(){
      
     foreach ($rows as $res) {
         $sub_array = [
+            $i,
             $res->attendance_date,
             $res->time_in_morning,
             $res->time_out_morning,

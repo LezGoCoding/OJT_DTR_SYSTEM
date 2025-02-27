@@ -37,10 +37,10 @@ if (isset($_POST['btnLogin'])) {
       message("Invalid Username and Password!", "error");
       redirect("login.php");
    } else {
-      $user = new User();
+      $employee = new Employees();
 
       // Authenticate the user
-      $res = $user::AuthenticateUser($email, $h_upass);
+      $res = $employee::AuthenticateEmployee($email, $h_upass);
 
       if ($res == true) {
             // Session variables
@@ -62,6 +62,7 @@ if (isset($_POST['btnLogin'])) {
             redirect(WEB_ROOT.'index.php');
 
       } else {
+
          if (!isset($_SESSION['accesscount'])) {
             $_SESSION['accesscount'] = 0;
          }
@@ -84,6 +85,7 @@ if (isset($_POST['btnLogin'])) {
                   ':ipaddress' => $ipAddress,
               ]);
           }
+
          $remaining = 2 - $single_res->ATTEMPCOUNT;
          $error_message = 'Account does not exist! You have only ' . $remaining . ' attempt(s) remaining.';
           
@@ -261,7 +263,6 @@ if (isset($_POST['btnLogin'])) {
 				float: right !important;
 				text-align: right;
 			}
-
 		</style>
 
 	</head>
@@ -328,6 +329,11 @@ if (isset($_POST['btnLogin'])) {
 		</div>
 
 		<div id="login-screen">
+
+			<div class="login-buttons">
+				<a href="#" id="goToAttendanceScannerScreen"><i class="fas fa-book"></i> Employee Attendance</a>
+			</div>
+
 			<div class="container">
 				<section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
 					<div class="container">
@@ -440,7 +446,6 @@ if (isset($_POST['btnLogin'])) {
 
 <!-- Template Main JS File -->
 <script src="<?php echo WEB_ROOT; ?>assets/js/main.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 <!-- Scanner Scripts -->
@@ -577,7 +582,6 @@ if (isset($_POST['btnLogin'])) {
 	        }
 	    });
 	});
-
 </script>
 
 <script>
@@ -601,6 +605,12 @@ if (isset($_POST['btnLogin'])) {
         document.getElementById('scanner-screen').classList.add('hide-scanner');
         document.getElementById('login-screen').classList.add('show-login');
         document.getElementById('container').style.justifyContent = 'center';
+    });
+
+    // Toggle between scanner and login screen
+    document.getElementById('goToAttendanceScannerScreen').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.history.back(); // Go back to the previous page
     });
 
     // Reset to scanner screen when clicking outside

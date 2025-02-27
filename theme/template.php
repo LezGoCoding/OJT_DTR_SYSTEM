@@ -288,7 +288,55 @@
   <script src="<?php echo WEB_ROOT ?>assets/vendor/tinymce/tinymce.min.js"></script>
   <script src="<?php echo WEB_ROOT ?>assets/vendor/php-email-form/validate.js"></script>
 
+<!-- ADMIN DASHBOARD && EMPLOYEE DASHBOARD JAVASCRIPT-->
+<script>
+    $(document).ready(function() {
 
+        let empId = "<?php echo $_SESSION['ACCOUNT_ID'] ?? ''; ?>";
+
+        // Initialize DataTable for attendance
+        var t = $('#myAllAttendanceRecordTbl').DataTable({
+            "ordering": false,
+            "lengthChange": false,
+            "paging": true,
+            "bInfo": true,
+            "processing": true,
+            "serverSide": false,
+            "order": [],
+            "ajax": {
+                url: "<?php echo WEB_ROOT; ?>employees/ajax.php",
+                type: "POST",
+                data: { route: 'employee_all_attendance', empId: empId}
+            },
+            "scrollY": "800px",
+            "scrollCollapse": true,
+            "columnDefs": [
+                { "searchable": true, "orderable": false, "targets": "_all" },
+                { "className": "text-center", "targets": [0, 1, 2, 3, 4, 5] }
+            ],
+            "columns": [
+                { "width": "0%" }, // Column 1
+                { "width": "26%" }, // Column 1
+                { "width": "16%" }, // Column 2
+                { "width": "16%" }, // Column 3
+                { "width": "16%" }, // Column 4
+                { "width": "16%" }  // Column 5
+            ],
+            "initComplete": function(settings, json) {
+                if (json.data.length === 0) {
+
+                    console.log(json.data)
+                    $('#myAllAttendanceRecordTbl tbody').html(`
+                        <tr>
+                            <td colspan="6" class="text-center">No attendance records for this employee.</td>
+                        </tr>
+                    `);
+                }
+            }
+        });
+    });
+
+</script>
 
 </body>
 </html>

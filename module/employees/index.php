@@ -1,23 +1,23 @@
 <?php
-require_once("../../include/initialize.php");
+    require_once("../../include/initialize.php");
 
-if (!isset($_SESSION['ACCOUNT_ID'])) {
-    header("Location: ".WEB_ROOT.'login.php');
-} else {
+    if (!isset($_SESSION['ACCOUNT_ID'])) {
+        header("Location: ".WEB_ROOT.'login.php');
+    } else {
 
-    $routes = [
-        'list' => 'list.php',
-        'details' => 'employeeDetails.php', 
-        'records' => 'employeeRecords.php', 
-    ];
-    $ParamConfig = [
-       'details' => ['empId'],
-       'records' => ['empId']
-   ];
-   $routeHandler = new RouteHandler($routes, 'list', $ParamConfig);
-   $content = $routeHandler->handleRouteAndContent();
-   $routeHandler->addToGet();
-   require_once("../../theme/template.php");
+        $routes = [
+            'list' => 'list.php',
+            'details' => 'employeeDetails.php', 
+            'records' => 'employeeRecords.php', 
+        ];
+        $ParamConfig = [
+           'details' => ['empId'],
+           'records' => ['empId']
+       ];
+       $routeHandler = new RouteHandler($routes, 'list', $ParamConfig);
+       $content = $routeHandler->handleRouteAndContent();
+       $routeHandler->addToGet();
+       require_once("../../theme/template.php");
 }
 
 ?>
